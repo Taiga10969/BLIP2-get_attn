@@ -8,7 +8,7 @@ BLIP-2のモデルからの出力としてAttention Weightの情報を出力す�
 ## 使用方法
 - repositryのclone
 ```
-git clone
+git clone https://github.com/Taiga10969/BLIP2-get_attn.git
 ```
 - 必要ライブラリのインストール
 ```

@@ -28,3 +28,8 @@ pip install -r requirements.txt
 ```
 python3 generate_get_attn.py
 ```
+
+# TO-DO
+[] Attentionを取り出せるようにプログラムを変更
+[] 詳細な説明を記述
+[] 可視化方法を模索

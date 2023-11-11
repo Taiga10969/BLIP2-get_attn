@@ -6,4 +6,15 @@ BLIP-2のモデルからの出力としてAttention Weightの情報を出力す�
 
 
 ## 使用方法
-- 1 LAVISをダウンロードする
+- LAVISをClone
+  任意のディレクトリに移動した後
+  ```
+  git clone https://github.com/salesforce/LAVIS.git
+  ```
+  上記でCloneしたRepositryの中の `lavis` ディレクトリのみを使用する．
+
+- 新しいワークスペースを作成
+- 任意のディレクトリに移動した後
+- ```
+  mkdir BLIP2-get_attn
+  ```

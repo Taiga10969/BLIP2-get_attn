@@ -3,7 +3,7 @@ BLIP-2のモデルからの出力としてAttention Weightの情報を出力す�
 
 ## outline
 原プログラム：[LAVIS - A Library for Language-Vision Intelligence](https://github.com/salesforce/LAVIS)<br>
-<br>
+
 Attentionを取り出せるように変更したファイルは，以下のファイルになります．<br>
 - lavis/models/eva_vit.py
 - lavis/models/blip2_models/blip2_t5.py

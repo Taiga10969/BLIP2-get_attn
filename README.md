@@ -17,3 +17,7 @@ cd BLIP2-get_attn
 ```
 pip install -r requirements.txt
 ```
+- generate()時のAttentionの取得コードの実行
+```
+python3 generate_get_attn.py
+```

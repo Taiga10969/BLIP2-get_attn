@@ -35,6 +35,8 @@ python3 generate_get_attn.py
 つまり，ある単語生成時におけるQ-Formerの32トークンの内どのトークンに注目しているかが獲得できる．したがって，Q-Former部分のCross Attention（ヘッド方向に平均をとり，層方向に乗算したもの）を32トークンの方向に，ある単語生成時におけるQ-Formerの32トークンの内どのトークンに注目度を基とした重み付き平均をとることによって，単語生成時における画像エンコーダからの257トークン（クラストークン1 + パッチトークン256）の特徴の内，どのトークンに注目しているのかを獲得できる．さらに，この注目度を利用して，Attention Rolloutした画像エンコーダのAttention Weightを257トークンの方向に重み付き平均をとることで，T5，Q-Formerの注目度を考慮した画像に対するAttentionを可視化している．
 <be>
 ※現状の可視化方法では，単語毎に著しく画像の注目箇所が変化するような挙動は確認できていない．
+![Test Image 3](https://github.com/Taiga10969/BLIP2-get_attn/blob/main/sample_img/BLIP2-Attention.png)
+
 ```
 python3 seed_rollout.py
 ```

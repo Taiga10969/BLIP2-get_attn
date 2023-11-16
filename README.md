@@ -29,6 +29,11 @@ pip install -r requirements.txt
 python3 generate_get_attn.py
 ```
 
+## Attention t5_Q-former_seed Rollout
+```
+python3 seed_rollout.py
+```
+
 ## TO-DO
 
 - [x] Attentionを取り出せるようにプログラムを変更

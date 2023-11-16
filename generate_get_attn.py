@@ -20,8 +20,7 @@ model, vis_processors, _ = load_model_and_preprocess(
 )
 
 # 入力データの用意
-#raw_image = Image.open('your_path/BLIP2-get_attn/sample_img/merlion.png').convert('RGB')
-raw_image = Image.open('/taiga/experiment/BLIP2-get_attn/sample_img/merlion.png').convert('RGB')
+raw_image = Image.open('your_path/BLIP2-get_attn/sample_img/merlion.png').convert('RGB')
 prompt = "Question: which city is this? Answer:"
 
 # 画像の前処理
